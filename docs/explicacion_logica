@@ -1,0 +1,5 @@
+## Lógica del Circuito Actual
+El sistema funciona como un dispensador automatizado controlado por una placa **ESP32**, cuya lógica de operación se basa en la detección de presencia y retroalimentación visual:
+1. **Detección de Movimiento (Sensor PIR):** El sensor de movimiento monitorea constantemente el entorno. Cuando el gato se acerca al dispensador, el sensor cambia su pin de datos a un estado ALTO, enviando la señal digital a la ESP32 a través del pin **GPIO 32**.
+2. **Activación del Servomotor:** Al recibir la señal de presencia, la ESP32 acciona el servomotor (conectado al pin **GPIO 23**). El servo gira un ángulo determinado para abrir la compuerta mecánica, permitiendo la caída de la comida durante un tiempo controlado, para luego regresar a su posición inicial de cierre.
+3. **Indicador Visual (LED indicador):** En paralelo a la dosificación, la ESP32 envía una señal al pin **GPIO 5** para encender el LED rojo (protegido con su respectiva resistencia). Este LED sirve como alerta visual para indicar que el proceso de alimentación está en marcha.
