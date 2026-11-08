@@ -24,6 +24,6 @@ Proyecto en Wokwi: [<enlace público>](https://wokwi.com/projects/47952517530542
 ## Código
 Ver la carpeta firmware/. Biblioteca usada: ESP32Servo.
 ## Evidencia
-![Funcionamiento](media/funcionamiento.mp4)
+![funcionamiento](media/funcionamiento.mp4)
 ## Mejoras futuras
 - Modificar el dispensador inteligente conectándolo a un reloj en vez de a un sensor de movimiento. Así lograremos dispensar la comida de forma más eficiente, evitando que se active cada vez que termine el delay y el gato se vuelva a acercar
