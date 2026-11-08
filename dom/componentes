@@ -1,0 +1,6 @@
+## Componentes necesarios para el circuito
+| Sensor PIR |
+| Servomotor |
+| LED |
+| Resistencia 220 ohms | 
+| ESP32 |
