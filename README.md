@@ -17,7 +17,7 @@ y evita servir de más si el gato se queda frente al plato.
 | Servomotor | GPIO 22 |
 | LED (con 220 Ω) | GPIO 16 |
 | Alimentación | 3V3 y GND |
-![Diagrama](docs/esquema.png)
+![dispensador](docs/esquema.png)
 ## Simulación
 Proyecto en Wokwi: [<enlace público>](https://wokwi.com/projects/479525175305420801)
 ## Código
