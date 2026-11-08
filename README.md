@@ -24,6 +24,7 @@ Proyecto en Wokwi: [<enlace público>](https://wokwi.com/projects/47952517530542
 ## Código
 Ver la carpeta firmware/. Biblioteca usada: ESP32Servo.
 ## Evidencia
+
 <video src="./media/funcionamiento.mp4" controls width="100%"></video>
 
 ## Mejoras futuras
